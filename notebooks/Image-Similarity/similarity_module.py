@@ -46,7 +46,7 @@ def get_image_feature_vectors():
     print("---------------------------------")
 
     # Definition of module with using tfhub.dev handle
-    module_handle = "https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/5"
+    module_handle = "https://tfhub.dev/google/imagenet/mobilenet_v2_140_224/feature_vector/4"
 
     # Load the module
     module = hub.load(module_handle)
